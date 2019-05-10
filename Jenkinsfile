@@ -5,7 +5,7 @@ pipeline{
       steps{
       echo 'Running build automation'
       sh '.gradelw build --no-deamon'
-      archiveArtifacts articats: '/dist/trainShedule.zip'
+      archiveArtifacts artifacts: '/dist/trainShedule.zip'
       
       }
       }
